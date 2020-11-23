@@ -1,0 +1,130 @@
+body {
+  /* background-image: url("background.jpg"); */
+  margin: 0;
+}
+
+/* this makes element in a div alignt in the center */
+.center {
+  text-align: center;
+}
+
+/* this is for all the text that have a white color */
+.white-text-color {
+  color: white;
+}
+
+/* this is for all text with a blue colour */
+.blue-text-color {
+  color: #28ABB9;
+}
+
+/* This makes the background color of the first and last div to be blue */
+.blue-background-color {
+  background-color: #28ABB9;
+}
+
+/* /////////////////////////////////////FirstDiv.jsx///////////////////////////////////////////////////////// */
+
+.first-div{
+
+  padding-top: 0.5rem;
+
+}
+
+.greeting {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 3rem;
+  padding-top: 0;
+  margin: 0;
+}
+
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 7rem;
+  padding-top: 7rem;
+  margin-bottom: 0;
+  font-weight: bold;
+
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 150%;
+  margin: 0;
+  font-weight: lighter;
+  padding-top: 1rem;
+}
+
+/* /////////////////////////////////////SecondDiv.jsx///////////////////////////////////////////////////////// */
+.second-div {
+  padding-top: 5rem;
+}
+
+.skills {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.skills-text {
+  padding-top: 5rem;
+}
+
+.skills-text p {
+  font-family: 'PT Mono', monospace;
+}
+
+/* /////////////////////////////////////ThirdtDiv.jsx///////////////////////////////////////////////////////// */
+.third-div {
+  text-shadow: 1;
+  padding-bottom: 3rem;
+}
+
+.third-div-paragraph {
+  font-size: 2rem;
+  padding-top: 3rem;
+  font-style: oblique;
+  font-weight: 500;
+  font-family: 'Epilogue', sans-serif;
+}
+
+/* /////////////////////////////////////FourthDiv.jsx///////////////////////////////////////////////////////// */
+.twitter-handle {
+  font-weight: bolder;
+  padding: 7rem 0;
+}
+
+.contact-me h3 {
+  margin: 0;
+}
+
+.contact-me i {
+  margin: 3rem 1rem 1rem 1rem;
+}
+
+
+
+@media (max-width: 990px) {
+  .name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    padding-top: 7rem;
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+
+  }
+
+  .skills-text {
+    padding-top: 1rem;
+  }
+
+  .skills {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 2;
+    text-align: center;
+  }
+
+}
