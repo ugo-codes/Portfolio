@@ -6,13 +6,14 @@ import SecondDiv from "./SecondDiv";
 import ThirdDiv from "./ThirdDiv";
 import FourthDiv from "./FourthDiv";
 
+
 function Home() {
   // This is the parent of the first page or rather the home page
   return (
     <div>
       <FirstDiv />
       <SecondDiv />
-      <ThirdDiv />      
+      <ThirdDiv />
       <FourthDiv />
     </div>
   );

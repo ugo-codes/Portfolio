@@ -6,13 +6,13 @@ import Skills from "./Skills"
 function SecondDiv() {
   // this just returns the second div with the html element to be displayed on the user screen
   return (
-    <div className="container-fluid second-div center">
+    <div className="container-fluid second-div center" id="skills">
       <h2 className="blue-text-color">My Skils</h2>
 
       <Skills
         src = "https://assets8.lottiefiles.com/private_files/lf30_hlbuygvk.json"
         title = "Desktop Applications"
-        text="I can make applications to run on your desktop machine for what ever purpose you want."
+        text="I can make applications run on your desktop machine for what ever purpose you want."
        />
 
        <Skills

@@ -3,6 +3,7 @@ import React, {useEffect, useState} from "react";
 
 import Lottie from "./Lottie";
 import axios from "axios";
+import NavBar from "./NavBar";
 
 require('dotenv').config();
 
@@ -50,7 +51,9 @@ function FirstDiv() {
 
   // the design of the first div is being returned to display on the user screen
   return (
-    <div className="container-fluid first-div center blue-background-color">
+    <div className="container-fluid first-div center blue-background-color" id="into">
+
+      <NavBar />
 
       <h2 className="greeting white-text-color">
        <Lottie

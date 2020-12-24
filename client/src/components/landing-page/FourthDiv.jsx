@@ -71,7 +71,7 @@ function FourthDiv() {
   }
 
   return (
-    <div className="container-fluid first-div blue-background-color center white-text-color">
+    <div className="container-fluid first-div blue-background-color center white-text-color" id="contact">
       <h3>Contact Me</h3>
 
       <i variant="light" name="whatsapp" className="fab fa-whatsapp fa-2x" onClick={handleShow}></i>
