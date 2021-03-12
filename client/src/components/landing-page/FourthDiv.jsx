@@ -67,6 +67,7 @@ function FourthDiv() {
         });
         break;
 
+
       default:
         setContact({
           modalTitle: "",
@@ -79,75 +80,35 @@ function FourthDiv() {
     setShow(true);
   }
 
-  return ( <
-      div className = "container-fluid first-div blue-background-color center white-text-color"
-      id = "contact" >
-      <
-      h3 > Contact Me < /h3>
+  return (
+    <div className="container-fluid first-div blue-background-color center white-text-color" id="contact">
+      <h3>Contact Me</h3>
 
-      <
-      i variant = "light"
-      name = "whatsapp"
-      className = "fab fa-whatsapp fa-2x"
-      onClick = {
-        handleShow
-      } > < /i> <
-      i variant = "light"
-      name = "twitter"
-      className = "fab fa-twitter fa-2x"
-      onClick = {
-        handleShow
-      } > < /i> <
-      i variant = "light"
-      name = "telegram"
-      className = "fab fa-telegram-plane fa-2x"
-      onClick = {
-        handleShow
-      } > < /i> <
-      i variant = "light"
-      name = "email"
-      className = "fas fa-envelope fa-2x"
-      onClick = {
-        handleShow
-      } > < /i>
+      <i variant="light" name="whatsapp" className="fab fa-whatsapp fa-2x" onClick={handleShow}></i>
+      <i variant="light" name="twitter" className="fab fa-twitter fa-2x" onClick={handleShow}></i>
+      <i variant="light" name="telegram" className="fab fa-telegram-plane fa-2x" onClick={handleShow}></i>
+      <i variant="light" name="email" className="fas fa-envelope fa-2x" onClick={handleShow}></i>
 
-      <
-      Modal show = {
-        show
-      }
-      onHide = {
-        handleClose
-      }
-      centered >
-      <
-      Modal.Header closeButton >
-      <
-      Modal.Title > {
-        modal.modalTitle
-      } < /Modal.Title> <
-      /Modal.Header> <
-      Modal.Body > {
-        modal.modalBody
-      } < /Modal.Body> <
-      Modal.Footer >
-      <
-      Button variant = "secondary"
-      onClick = {
-        handleClose
-      } >
-      Close <
-      /Button> <
-      /Modal.Footer> <
-      /Modal>
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>{modal.modalTitle}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{modal.modalBody}</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
 
-      <
-      br / >
+      <br />
 
-      <
-      small > copywright & #169; {currentYear}</small>
-
-    </div>
-  );
-}
-
-export default FourthDiv;
+      <small>copywright &#169; {currentYear}</small>
+
+    </div>
+  );
+
+
+}
+
+export default FourthDiv;
