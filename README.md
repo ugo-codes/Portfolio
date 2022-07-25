@@ -12,7 +12,7 @@ The website can be found https://enigmatic-ravine-76128.herokuapp.com/
 ## There is an .env file which is being present but is not uploaded. (.env files are always omitted)
 
 ### app.js
-This is the server file i.e the code that runs on the server side .
+This is the server file i.e the code that runs on the server side.
 
 ### date.js
 This is an external module which is meant to be exported and it carries a function which returns a value.
