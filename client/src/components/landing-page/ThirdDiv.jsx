@@ -6,12 +6,8 @@ function ThirdDiv() {
   return (
     <div className="container third-div center" id="freelance">
       <p className="third-div-paragraph blue-text-color">
-        I take on freelance opportunities,
-        work with existing team if you have any.
-        I also love to make new friends so you can follow me on twtter
-        <span className="twitter-handle"> @ugz_man</span><br />
-        Have an exciting project where you need some help?
-        Send me over a message, and let's chat.
+      I am a full stack web developer with over five years of experience building web applications with various technologies. I currently build my frontend with react and backend with nodejs. I take on freelance jobs,
+      and also work on existing projects.
       </p>
     </div>
   );

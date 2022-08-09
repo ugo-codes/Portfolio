@@ -9,23 +9,23 @@ function SecondDiv() {
     <div className="container-fluid second-div center" id="skills">
       <h2 className="blue-text-color">My Skils</h2>
 
-      <Skills
+      {/* <Skills
         src = "https://assets8.lottiefiles.com/private_files/lf30_hlbuygvk.json"
         title = "Desktop Applications"
         text="I can make applications run on your desktop machine for what ever purpose you want."
-       />
+       /> */}
 
        <Skills
          src = "https://assets4.lottiefiles.com/packages/lf20_hntzYU.json"
-         title = "Websites/Web Apps"
+         title = "Website Developer"
          text="In need of a website? Contact me and let me help you achieve that."
         />
 
-        <Skills
+        {/* <Skills
           src = "https://assets3.lottiefiles.com/packages/lf20_498gmG.json"
           title = "Android Applications"
           text="Do you wish to have an android application for your? I can help you achieve that also."
-         />
+         /> */}
 
     </div>
   );

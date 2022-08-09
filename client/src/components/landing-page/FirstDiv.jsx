@@ -53,7 +53,7 @@ function FirstDiv() {
   return (
     <div className="container-fluid first-div center blue-background-color" id="into">
 
-      <NavBar />
+      {/* <NavBar /> */}
 
       <h2 className="greeting white-text-color">
        <Lottie
@@ -64,7 +64,7 @@ function FirstDiv() {
           className="right"
         />{greeting.greeting}</h2>
 
-      <h2 className="name white-text-color">I'm ugzMAN</h2>
+      <h2 className="name white-text-color">Hi! I'm Ugo</h2>
       <h4 className="title white-text-color">a programmer</h4>
       <Lottie
         height="300px"

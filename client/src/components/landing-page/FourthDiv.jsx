@@ -56,7 +56,7 @@ function FourthDiv() {
       case "email":
         setContact({
           modalTitle: "You can send me an email",
-          modalBody: "You can send an email to kingchild160@gmail.com"
+          modalBody: "You can send an email to yourfavouritedeveloper@gmail.com"
         });
         break;
 
@@ -84,10 +84,11 @@ function FourthDiv() {
     <div className="container-fluid first-div blue-background-color center white-text-color" id="contact">
       <h3>Contact Me</h3>
 
-      <i variant="light" name="whatsapp" className="fab fa-whatsapp fa-2x" onClick={handleShow}></i>
-      <i variant="light" name="twitter" className="fab fa-twitter fa-2x" onClick={handleShow}></i>
-      <i variant="light" name="telegram" className="fab fa-telegram-plane fa-2x" onClick={handleShow}></i>
+      {/* <i variant="light" name="whatsapp" className="fab fa-whatsapp fa-2x" onClick={handleShow}></i> */}
+      <a href="https://twitter.com/_fav_dev" rel="noreferrer" target="_blank"><i variant="light" name="twitter" className="fab fa-twitter fa-2x"></i></a>
+      {/* <i variant="light" name="telegram" className="fab fa-telegram-plane fa-2x" onClick={handleShow}></i> */}
       <i variant="light" name="email" className="fas fa-envelope fa-2x" onClick={handleShow}></i>
+      <a href="https://github.com/favourite-developer" rel="noreferrer" target="_blank"><i variant="light" name="github" class="fab fa-github fa-2x"></i></a>
 
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
